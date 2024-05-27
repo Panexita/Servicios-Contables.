@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Contabilidad - Marvin Pana Fernández</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, section {
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background-color: #f4f4f4;
+        }
+        section {
+            border-bottom: 1px solid #ddd;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Servicios de Contabilidad por Marvin Pana Fernández</h1>
+        <p>Más de 35 años de experiencia en contabilidad y asesoría financiera</p>
+        <img src="logo.jpeg" alt="Logo de Contaduría Pública Pana y Asociados">
+    </header>
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Marvin Pana Fernández es un contador público certificado con más de 35 años de experiencia en el sector contable y financiero. A lo largo de su carrera, ha trabajado con una variedad de clientes, desde pequeñas empresas hasta grandes corporaciones, brindando servicios de contabilidad, auditoría y asesoría financiera.</p>
+    </section>
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos una amplia gama de servicios de contabilidad y asesoría financiera para satisfacer las necesidades de nuestros clientes. Nuestros servicios incluyen:</p>
+        <ul>
+            <li>Contabilidad general</li>
+            <li>Auditorías financieras</li>
+            <li>Asesoría fiscal</li>
+            <li>Planificación financiera</li>
+            <li>Gestión de nómina</li>
+        </ul>
+        <p>Nuestros precios comienzan desde $25, variando según la complejidad del trabajo.</p>
+    </section>
+    <section>
+        <h2>Contáctanos</h2>
+        <p>Para más información o para contratar nuestros servicios, puedes contactarnos a través de:</p>
+        <p class="contact-info">
+            <strong>Teléfono:</strong> 8316-4381<br>
+            <strong>Correo electrónico:</strong> cpa.despacho@outlook.es
+        </p>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
